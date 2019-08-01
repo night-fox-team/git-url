@@ -1,0 +1,29 @@
+{
+    "name": "night-fox-team/git-url",
+    "description": "Parse the parts of any valid git url",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Brown",
+            "email": "jeff@nightfox.io"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "NightFoxTeam\\GitUrl\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NightFoxTeam\\GitUrl\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
